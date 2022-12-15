@@ -1,0 +1,26 @@
+Title: Effects of Environmental Condition of Woody Plant Growth 
+
+Group members: Will Harrigan, Cam Angulo, Jacqueline Hernandez
+
+Dataset tidying 
+
+Tidy Standards:
+1.) Each variable is stored in its own column 
+2.) Each sample/observation is stored in its own row 
+3.) Every value is stored in its own cell 
+
+1.) Each variable is stored in its own column 
+The raw datasets of Ghannoum_a and Ghannoum_b are made up of 12 and 23 columns of collected data, respectively. Each metric recorded is stored in its own column including temperature, CO2 treatment, species and recorded plant characteristics. When combining the two datasets we made sure to keep the data 'Tidy' by keeping metrics in their respective columns. We also only combined metrics that recorded the same characteristics into columns. In effect, we combined temperature data from the 2 datasets into a single column, species into a single column and others. 
+
+2.) Each sample/observation is stored in its own row 
+Our raw data stored each observation being in its own row. However, this became tricky to keep track of when combining datasets. We overcame this hurdle by binding data without sorting or manipulating until stored in our dataframe that was being used for analysis. We also made sure to always stored Ghannoum_a data in the new dataframe first, followed by Ghannoum_b data. This made sure that the data from each sample was linked to the other metrics that were recorded when moved into new dataframes.   
+
+3.) Every value is stored in its own cell 
+Every value being stored in its own cell was accomplished by saving our data into dataframes. This ensured that data metrics were not going to be saved as a list and that they would be observed as independent measurements. 
+
+
+FAIR Data
+
+Our data is findable, transperant and reproducible abiding by the main FAIR principles. Our research into Ghannoum's datasets are stored in a public GitHub Repository at (https://github.com/WillHarrigan/MBIO612F22/tree/main/Proposing_Dataset). This repository is easily accessed and located due to proper annotation of the goals we set out to achieve with the raw data. Our data is transperant due to  descriptions of our code blocks, as well as clearly labelled headings to direct viewers to essential cells. When manipulating the data we created subsets of our total data. These subsets contain certain variables that would be used for comparison in our data analysis phase. This allows readers to link analysis to the data we are drawing from. The subsets also guide future researchers to reproduce our data. Our code annotations and headings also contribute to the reproducibility of our work. The raw data we accessed is also publicly avaiable in a GitHub Repository for following researchers to continue on our initial analysis of Ghannoum et al.'s reportings. Therefore, our data analysis of Ghannoum et al.'s research abide by FAIR data principles. 
+
+
